@@ -179,4 +179,7 @@ button:active{
   body{
     background-color: #f2f4f8;
   }
+  .App{
+    margin-top: 0;
+  }
 }

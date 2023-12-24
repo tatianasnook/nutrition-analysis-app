@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Find a Recipe App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### By Tatiana Snook
 
-## Available Scripts
+## Technologies Used:
+* HTML
+* CSS
+* JavaScript
+* React
+* Visual Studio Code
+* Git
 
-In the project directory, you can run:
+## Description
+Nutrition Analysis App is a React project that enables users to quickly learn nutrition details of an ingredient or list of ingredients. The app fetches recipes from the [Edamam API](https://www.edamam.com/).
 
-### `npm start`
+Upon opening the app, users are directed to the Home page, which displays input field where user can enter an ingredient or list of ingredients and press Analyze button. As a result user will get a Nutrition facts such as total calories, fat, protein, sodium and etc.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Deployment
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project is deployed and can be accessed at [nutritional-analysis.netlify.app](https://nutritional-analysis.netlify.app). Feel free to visit the site and explore the features.
 
-### `npm test`
+## Setup/Installation Requirements
+1.  Before you begin, make sure you have the following prerequisites: node and npm installed on your computer.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Clone or download this repository to your local machine. Run in Terminal: git clone https://github.com/your-username/nutrition-analysis-app.git 
 
-### `npm run build`
+3. Navigate to the project directory. Run: cd nutrition-analysis-app
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. To run a project on your local machine: npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Known Issues
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* no known issues at this time.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+MIT License Copyright © Tatiana Snook
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to adjust it further based on your preferences.
