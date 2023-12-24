@@ -84,9 +84,9 @@ function App() {
         {myNutrition && <h2>{myNutrition.calories} kcal</h2>}
         {
           myNutrition && Object.values(myNutrition.totalNutrients)
-            .map(({ label, quantity, unit }, index) =>
+            .map(({ label, quantity, unit }) =>
               <Nutrition
-                key={index}
+                key={label}
                 label={label}
                 quantity={quantity}
                 unit={unit}
